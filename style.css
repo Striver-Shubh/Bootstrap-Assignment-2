@@ -13,13 +13,33 @@
 .input-round {
   border-radius: 20px;
 }
+.input-round-1 {
+  border-radius: 10px;
+}
 .input-shadow {
   box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #ffffff;
   font-size: 15px;
   font-weight: 100;
 }
+select {
+  background-color: transparent;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+}
+input::placeholder {
+  background-color: transparent;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+}
 .pri {
   background-color: #e8e9ee;
+}
+.prim {
+  background-color: #d1d2d4;
 }
 .tex {
   color: #2653a7;
@@ -38,6 +58,10 @@ li a {
   background: linear-gradient(to right, #35d3e1, rgba(13, 53, 148, 0.898039))
     no-repeat;
 }
+.gradi:hover {
+  background: linear-gradient(to right, #35d3e1, rgba(13, 53, 148, 0.898039))
+    no-repeat;
+}
 .border-right {
   border: 0;
   margin: 0;
@@ -52,10 +76,5 @@ li a {
 }
 .offer {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  list-style-image: url("https://www.tataaig.com/checkmark.svg");
-}
-.tick {
-  padding-left: 10px;
+  margin-left: -30px;
 }
