@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-shad {
+  box-shadow: inset 2px 1px 2px 1px grey;
+  background-size: contain;
+}
+.round {
+  border-radius: 50px;
+}
+.input-round {
+  border-radius: 20px;
+}
+.input-shadow {
+  box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+}
+.pri {
+  background-color: #e8e9ee;
+}
+.tex {
+  color: #2653a7;
+}
+li {
+  margin-right: 43px;
+}
+li a {
+  text-decoration: none;
+}
+.hsz {
+  font-size: 15px;
+  font-weight: 600;
+}
+.grad {
+  background: linear-gradient(to right, #35d3e1, rgba(13, 53, 148, 0.898039))
+    no-repeat;
+}
+.border-right {
+  border: 0;
+  margin: 0;
+  border-left: 1px solid white;
+  height: 20px;
+}
+.border-card {
+  border: 0;
+  margin: 0;
+  border-left: 2px dotted rgb(207, 203, 203);
+  height: 245px;
+}
