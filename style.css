@@ -50,3 +50,12 @@ li a {
   border-left: 2px dotted rgb(207, 203, 203);
   height: 245px;
 }
+.offer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-image: url("https://www.tataaig.com/checkmark.svg");
+}
+.tick {
+  padding-left: 10px;
+}
